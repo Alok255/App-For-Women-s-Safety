@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/fab_margin"
+    android:background="#f48fb1"
+
+    tools:context=".HelpActivity">
+
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/add_no_1_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/add_number_to_help"
+        android:inputType="number"
+        android:maxLength="10"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/add_no_2_edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/add_second_number_to_help"
+        android:padding="10dp"
+        android:inputType="number"
+        android:maxLength="10"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/update"
+        android:background="@drawable/button_shape"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <ProgressBar
+        android:id="@+id/update_progress_bar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp"
+        android:visibility="gone"/>
+
+
+
+    <ImageView
+        android:id="@+id/rakhi_image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="35dp"
+        android:src="@mipmap/ic_raksha"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/number_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:text="@string/you_already_registered_in_raksha_app"
+        android:textSize="23sp"
+        android:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/location_updates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+</LinearLayout>

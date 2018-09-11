@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f48fb1"
+    tools:context=".SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/splash"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_raksha"
+        android:contentDescription="@string/app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash"
+        android:layout_centerHorizontal="true"
+        android:text="@string/raksha_bandhan"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:fontFamily="serif" />
+</RelativeLayout>

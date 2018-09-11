@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Raksha App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_father_s_name">Enter Father\'s name</string>
+    <string name="enter_home_address">Enter Home address</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="enter_email_address">Enter Email address</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="add_number_to_help">Add number to help</string>
+    <string name="save">Save</string>
+    <string name="you_already_registered_in_raksha_app">You Registered in Raksha App.</string>
+    <string name="update">Update Help Number</string>
+    <string name="add_second_number_to_help">Add second number to help</string>
+    <string name="enter_aadhar_number">Enter Aadhar Number</string>
+    <string name="already_registered_login_me">If Already Registered</string>
+    <string name="login">Login</string>
+    <string name="submit_otp">Submit OTP</string>
+    <string name="please_wait_for_otp">Please wait for OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="raksha_bandhan">Raksha Bandhan</string>
+    <string name="works">1. Registered in our app.\n2. Update Your help numbers.\n3. For the first number you can Call and Message.\n4. For the second number you can only Message.\n5. Exit from the app.\n6. 3 tap on the lock button.</string>
+    <string name="how_it_works">How it works?</string>
+    <string name="note">Note*</string>
+    <string name="important">1. Set your SIM for calling and messaging if dual Sim phone.\n2. Location must be ON.\n3. Location is important because when send a message your location sent in message.</string>
+    <string name="warning">Don\'t misuse this app.If any misuse this is app, legal actions take on them.</string>
+    <string name="developed_by_arcnet_hub_infotech_india_pvt_ltd"></string>
+    <string name="warningText">Warning.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>
